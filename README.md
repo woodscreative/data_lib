@@ -1,2 +1,2 @@
 # data_lib
-Data library (JSON,PHP)
+A collection of useful data in JSON format.
