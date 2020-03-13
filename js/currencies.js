@@ -1,4 +1,4 @@
-[
+module.exports = [
   [
     "Australian Dollar",
     "AUD"
@@ -95,4 +95,4 @@
     "U.S Dollar",
     "USD"
   ]
-];
+]

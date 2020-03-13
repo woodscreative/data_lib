@@ -1,5 +1,4 @@
-<?php
-$data = [
+module.exports = [
   [
     "Afar",
     "AA"
@@ -728,5 +727,4 @@ $data = [
     "Chinese",
     "ZH"
   ]
-];
-?>
+]

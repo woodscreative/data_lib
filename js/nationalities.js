@@ -1,5 +1,4 @@
-<?php
-$data = [
+module.exports = [
   [
     "Andorra",
     "AD"
@@ -996,5 +995,4 @@ $data = [
     "Zimbabwe",
     "ZW"
   ]
-];
-?>
+]

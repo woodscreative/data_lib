@@ -1,184 +1,730 @@
-{
-    "AA": "Afar",
-    "AB": "Abkhaz",
-    "AE": "Avestan",
-    "AF": "Afrikaans",
-    "AK": "Akan",
-    "AM": "Amharic",
-    "AN": "Aragonese",
-    "AR": "Arabic",
-    "AS": "Assamese",
-    "AV": "Avaric",
-    "AY": "Aymara",
-    "AZ": "Azerbaijani",
-    "BA": "Bashkir",
-    "BE": "Belarusian",
-    "BG": "Bulgarian",
-    "BH": "Bihari",
-    "BI": "Bislama",
-    "BM": "Bambara",
-    "BN": "Bengali",
-    "BO": "Tibetan Standard, Tibetan, Central",
-    "BR": "Breton",
-    "BS": "Bosnian",
-    "CA": "Catalan; Valencian",
-    "CE": "Chechen",
-    "CH": "Chamorro",
-    "CO": "Corsican",
-    "CR": "Cree",
-    "CS": "Czech",
-    "CU": "Old Church Slavonic, Church Slavic, Church Slavonic, Old Bulgarian, Old Slavonic",
-    "CV": "Chuvash",
-    "CY": "Welsh",
-    "DA": "Danish",
-    "DE": "German",
-    "DV": "Divehi; Dhivehi; Maldivian;",
-    "EE": "Ewe",
-    "EL": "Greek, Modern",
-    "EN": "English",
-    "EO": "Esperanto",
-    "ES": "Spanish; Castilian",
-    "ET": "Estonian",
-    "EU": "Basque",
-    "FA": "Persian",
-    "FF": "Fula; Fulah; Pulaar; Pular",
-    "FI": "Finnish",
-    "FJ": "Fijian",
-    "FO": "Faroese",
-    "FR": "French",
-    "FY": "Western Frisian",
-    "GA": "Irish",
-    "GD": "Scottish Gaelic; Gaelic",
-    "GL": "Galician",
-    "GN": "Guaran\u00ed",
-    "GU": "Gujarati",
-    "GV": "Manx",
-    "HA": "Hausa",
-    "HE": "Hebrew (modern)",
-    "HI": "Hindi",
-    "HO": "Hiri Motu",
-    "HR": "Croatian",
-    "HT": "Haitian; Haitian Creole",
-    "HU": "Hungarian",
-    "HY": "Armenian",
-    "HZ": "Herero",
-    "IA": "Interlingua",
-    "ID": "Indonesian",
-    "IE": "Interlingue",
-    "IG": "Igbo",
-    "II": "Nuosu",
-    "IK": "Inupiaq",
-    "IO": "Ido",
-    "IS": "Icelandic",
-    "IT": "Italian",
-    "IU": "Inuktitut",
-    "JA": "Japanese",
-    "JV": "Javanese",
-    "KA": "Georgian",
-    "KG": "Kongo",
-    "KI": "Kikuyu, Gikuyu",
-    "KJ": "Kwanyama, Kuanyama",
-    "KK": "Kazakh",
-    "KL": "Kalaallisut, Greenlandic",
-    "KM": "Khmer",
-    "KN": "Kannada",
-    "KO": "Korean",
-    "KR": "Kanuri",
-    "KS": "Kashmiri",
-    "KU": "Kurdish",
-    "KV": "Komi",
-    "KW": "Cornish",
-    "KY": "Kirghiz, Kyrgyz",
-    "LA": "Latin",
-    "LB": "Luxembourgish, Letzeburgesch",
-    "LG": "Luganda",
-    "LI": "Limburgish, Limburgan, Limburger",
-    "LN": "Lingala",
-    "LO": "Lao",
-    "LT": "Lithuanian",
-    "LU": "Luba-Katanga",
-    "LV": "Latvian",
-    "MG": "Malagasy",
-    "MH": "Marshallese",
-    "MI": "M\u0101ori",
-    "MK": "Macedonian",
-    "ML": "Malayalam",
-    "MN": "Mongolian",
-    "MR": "Marathi (Mar\u0101\u1e6dh\u012b)",
-    "MS": "Malay",
-    "MT": "Maltese",
-    "MY": "Burmese",
-    "NA": "Nauru",
-    "NB": "Norwegian Bokm\u00e5l",
-    "ND": "North Ndebele",
-    "NE": "Nepali",
-    "NG": "Ndonga",
-    "NL": "Dutch",
-    "NN": "Norwegian Nynorsk",
-    "NO": "Norwegian",
-    "NR": "South Ndebele",
-    "NV": "Navajo, Navaho",
-    "NY": "Chichewa; Chewa; Nyanja",
-    "OC": "Occitan",
-    "OJ": "Ojibwe, Ojibwa",
-    "OM": "Oromo",
-    "OR": "Oriya",
-    "OS": "Ossetian, Ossetic",
-    "PA": "Panjabi, Punjabi",
-    "PI": "P\u0101li",
-    "PL": "Polish",
-    "PS": "Pashto, Pushto",
-    "PT": "Portuguese",
-    "QU": "Quechua",
-    "RM": "Romansh",
-    "RN": "Kirundi",
-    "RO": "Romanian, Moldavian, Moldovan",
-    "RU": "Russian",
-    "RW": "Kinyarwanda",
-    "SA": "Sanskrit (Sa\u1e41sk\u1e5bta)",
-    "SC": "Sardinian",
-    "SD": "Sindhi",
-    "SE": "Northern Sami",
-    "SG": "Sango",
-    "SI": "Sinhala, Sinhalese",
-    "SK": "Slovak",
-    "SL": "Slovene",
-    "SM": "Samoan",
-    "SN": "Shona",
-    "SO": "Somali",
-    "SQ": "Albanian",
-    "SR": "Serbian",
-    "SS": "Swati",
-    "ST": "Southern Sotho",
-    "SU": "Sundanese",
-    "SV": "Swedish",
-    "SW": "Swahili",
-    "TA": "Tamil",
-    "TE": "Telugu",
-    "TG": "Tajik",
-    "TH": "Thai",
-    "TI": "Tigrinya",
-    "TK": "Turkmen",
-    "TL": "Tagalog",
-    "TN": "Tswana",
-    "TO": "Tonga (Tonga Islands)",
-    "TR": "Turkish",
-    "TS": "Tsonga",
-    "TT": "Tatar",
-    "TW": "Twi",
-    "TY": "Tahitian",
-    "UG": "Uighur, Uyghur",
-    "UK": "Ukrainian",
-    "UR": "Urdu",
-    "UZ": "Uzbek",
-    "VE": "Venda",
-    "VI": "Vietnamese",
-    "VO": "Volap\u00fck",
-    "WA": "Walloon",
-    "WO": "Wolof",
-    "XH": "Xhosa",
-    "YI": "Yiddish",
-    "YO": "Yoruba",
-    "ZA": "Zhuang, Chuang",
-    "ZH": "Chinese"
-}
+[
+  [
+    "Afar",
+    "AA"
+  ],
+  [
+    "Abkhaz",
+    "AB"
+  ],
+  [
+    "Avestan",
+    "AE"
+  ],
+  [
+    "Afrikaans",
+    "AF"
+  ],
+  [
+    "Akan",
+    "AK"
+  ],
+  [
+    "Amharic",
+    "AM"
+  ],
+  [
+    "Aragonese",
+    "AN"
+  ],
+  [
+    "Arabic",
+    "AR"
+  ],
+  [
+    "Assamese",
+    "AS"
+  ],
+  [
+    "Avaric",
+    "AV"
+  ],
+  [
+    "Aymara",
+    "AY"
+  ],
+  [
+    "Azerbaijani",
+    "AZ"
+  ],
+  [
+    "Bashkir",
+    "BA"
+  ],
+  [
+    "Belarusian",
+    "BE"
+  ],
+  [
+    "Bulgarian",
+    "BG"
+  ],
+  [
+    "Bihari",
+    "BH"
+  ],
+  [
+    "Bislama",
+    "BI"
+  ],
+  [
+    "Bambara",
+    "BM"
+  ],
+  [
+    "Bengali",
+    "BN"
+  ],
+  [
+    "Tibetan Standard, Tibetan, Central",
+    "BO"
+  ],
+  [
+    "Breton",
+    "BR"
+  ],
+  [
+    "Bosnian",
+    "BS"
+  ],
+  [
+    "Catalan; Valencian",
+    "CA"
+  ],
+  [
+    "Chechen",
+    "CE"
+  ],
+  [
+    "Chamorro",
+    "CH"
+  ],
+  [
+    "Corsican",
+    "CO"
+  ],
+  [
+    "Cree",
+    "CR"
+  ],
+  [
+    "Czech",
+    "CS"
+  ],
+  [
+    "Old Church Slavonic, Church Slavic, Church Slavonic, Old Bulgarian, Old Slavonic",
+    "CU"
+  ],
+  [
+    "Chuvash",
+    "CV"
+  ],
+  [
+    "Welsh",
+    "CY"
+  ],
+  [
+    "Danish",
+    "DA"
+  ],
+  [
+    "German",
+    "DE"
+  ],
+  [
+    "Divehi; Dhivehi; Maldivian;",
+    "DV"
+  ],
+  [
+    "Ewe",
+    "EE"
+  ],
+  [
+    "Greek, Modern",
+    "EL"
+  ],
+  [
+    "English",
+    "EN"
+  ],
+  [
+    "Esperanto",
+    "EO"
+  ],
+  [
+    "Spanish; Castilian",
+    "ES"
+  ],
+  [
+    "Estonian",
+    "ET"
+  ],
+  [
+    "Basque",
+    "EU"
+  ],
+  [
+    "Persian",
+    "FA"
+  ],
+  [
+    "Fula; Fulah; Pulaar; Pular",
+    "FF"
+  ],
+  [
+    "Finnish",
+    "FI"
+  ],
+  [
+    "Fijian",
+    "FJ"
+  ],
+  [
+    "Faroese",
+    "FO"
+  ],
+  [
+    "French",
+    "FR"
+  ],
+  [
+    "Western Frisian",
+    "FY"
+  ],
+  [
+    "Irish",
+    "GA"
+  ],
+  [
+    "Scottish Gaelic; Gaelic",
+    "GD"
+  ],
+  [
+    "Galician",
+    "GL"
+  ],
+  [
+    "Guaraní",
+    "GN"
+  ],
+  [
+    "Gujarati",
+    "GU"
+  ],
+  [
+    "Manx",
+    "GV"
+  ],
+  [
+    "Hausa",
+    "HA"
+  ],
+  [
+    "Hebrew (modern)",
+    "HE"
+  ],
+  [
+    "Hindi",
+    "HI"
+  ],
+  [
+    "Hiri Motu",
+    "HO"
+  ],
+  [
+    "Croatian",
+    "HR"
+  ],
+  [
+    "Haitian; Haitian Creole",
+    "HT"
+  ],
+  [
+    "Hungarian",
+    "HU"
+  ],
+  [
+    "Armenian",
+    "HY"
+  ],
+  [
+    "Herero",
+    "HZ"
+  ],
+  [
+    "Interlingua",
+    "IA"
+  ],
+  [
+    "Indonesian",
+    "ID"
+  ],
+  [
+    "Interlingue",
+    "IE"
+  ],
+  [
+    "Igbo",
+    "IG"
+  ],
+  [
+    "Nuosu",
+    "II"
+  ],
+  [
+    "Inupiaq",
+    "IK"
+  ],
+  [
+    "Ido",
+    "IO"
+  ],
+  [
+    "Icelandic",
+    "IS"
+  ],
+  [
+    "Italian",
+    "IT"
+  ],
+  [
+    "Inuktitut",
+    "IU"
+  ],
+  [
+    "Japanese",
+    "JA"
+  ],
+  [
+    "Javanese",
+    "JV"
+  ],
+  [
+    "Georgian",
+    "KA"
+  ],
+  [
+    "Kongo",
+    "KG"
+  ],
+  [
+    "Kikuyu, Gikuyu",
+    "KI"
+  ],
+  [
+    "Kwanyama, Kuanyama",
+    "KJ"
+  ],
+  [
+    "Kazakh",
+    "KK"
+  ],
+  [
+    "Kalaallisut, Greenlandic",
+    "KL"
+  ],
+  [
+    "Khmer",
+    "KM"
+  ],
+  [
+    "Kannada",
+    "KN"
+  ],
+  [
+    "Korean",
+    "KO"
+  ],
+  [
+    "Kanuri",
+    "KR"
+  ],
+  [
+    "Kashmiri",
+    "KS"
+  ],
+  [
+    "Kurdish",
+    "KU"
+  ],
+  [
+    "Komi",
+    "KV"
+  ],
+  [
+    "Cornish",
+    "KW"
+  ],
+  [
+    "Kirghiz, Kyrgyz",
+    "KY"
+  ],
+  [
+    "Latin",
+    "LA"
+  ],
+  [
+    "Luxembourgish, Letzeburgesch",
+    "LB"
+  ],
+  [
+    "Luganda",
+    "LG"
+  ],
+  [
+    "Limburgish, Limburgan, Limburger",
+    "LI"
+  ],
+  [
+    "Lingala",
+    "LN"
+  ],
+  [
+    "Lao",
+    "LO"
+  ],
+  [
+    "Lithuanian",
+    "LT"
+  ],
+  [
+    "Luba-Katanga",
+    "LU"
+  ],
+  [
+    "Latvian",
+    "LV"
+  ],
+  [
+    "Malagasy",
+    "MG"
+  ],
+  [
+    "Marshallese",
+    "MH"
+  ],
+  [
+    "Māori",
+    "MI"
+  ],
+  [
+    "Macedonian",
+    "MK"
+  ],
+  [
+    "Malayalam",
+    "ML"
+  ],
+  [
+    "Mongolian",
+    "MN"
+  ],
+  [
+    "Marathi (Marāṭhī)",
+    "MR"
+  ],
+  [
+    "Malay",
+    "MS"
+  ],
+  [
+    "Maltese",
+    "MT"
+  ],
+  [
+    "Burmese",
+    "MY"
+  ],
+  [
+    "Nauru",
+    "NA"
+  ],
+  [
+    "Norwegian Bokmål",
+    "NB"
+  ],
+  [
+    "North Ndebele",
+    "ND"
+  ],
+  [
+    "Nepali",
+    "NE"
+  ],
+  [
+    "Ndonga",
+    "NG"
+  ],
+  [
+    "Dutch",
+    "NL"
+  ],
+  [
+    "Norwegian Nynorsk",
+    "NN"
+  ],
+  [
+    "Norwegian",
+    "NO"
+  ],
+  [
+    "South Ndebele",
+    "NR"
+  ],
+  [
+    "Navajo, Navaho",
+    "NV"
+  ],
+  [
+    "Chichewa; Chewa; Nyanja",
+    "NY"
+  ],
+  [
+    "Occitan",
+    "OC"
+  ],
+  [
+    "Ojibwe, Ojibwa",
+    "OJ"
+  ],
+  [
+    "Oromo",
+    "OM"
+  ],
+  [
+    "Oriya",
+    "OR"
+  ],
+  [
+    "Ossetian, Ossetic",
+    "OS"
+  ],
+  [
+    "Panjabi, Punjabi",
+    "PA"
+  ],
+  [
+    "Pāli",
+    "PI"
+  ],
+  [
+    "Polish",
+    "PL"
+  ],
+  [
+    "Pashto, Pushto",
+    "PS"
+  ],
+  [
+    "Portuguese",
+    "PT"
+  ],
+  [
+    "Quechua",
+    "QU"
+  ],
+  [
+    "Romansh",
+    "RM"
+  ],
+  [
+    "Kirundi",
+    "RN"
+  ],
+  [
+    "Romanian, Moldavian, Moldovan",
+    "RO"
+  ],
+  [
+    "Russian",
+    "RU"
+  ],
+  [
+    "Kinyarwanda",
+    "RW"
+  ],
+  [
+    "Sanskrit (Saṁskṛta)",
+    "SA"
+  ],
+  [
+    "Sardinian",
+    "SC"
+  ],
+  [
+    "Sindhi",
+    "SD"
+  ],
+  [
+    "Northern Sami",
+    "SE"
+  ],
+  [
+    "Sango",
+    "SG"
+  ],
+  [
+    "Sinhala, Sinhalese",
+    "SI"
+  ],
+  [
+    "Slovak",
+    "SK"
+  ],
+  [
+    "Slovene",
+    "SL"
+  ],
+  [
+    "Samoan",
+    "SM"
+  ],
+  [
+    "Shona",
+    "SN"
+  ],
+  [
+    "Somali",
+    "SO"
+  ],
+  [
+    "Albanian",
+    "SQ"
+  ],
+  [
+    "Serbian",
+    "SR"
+  ],
+  [
+    "Swati",
+    "SS"
+  ],
+  [
+    "Southern Sotho",
+    "ST"
+  ],
+  [
+    "Sundanese",
+    "SU"
+  ],
+  [
+    "Swedish",
+    "SV"
+  ],
+  [
+    "Swahili",
+    "SW"
+  ],
+  [
+    "Tamil",
+    "TA"
+  ],
+  [
+    "Telugu",
+    "TE"
+  ],
+  [
+    "Tajik",
+    "TG"
+  ],
+  [
+    "Thai",
+    "TH"
+  ],
+  [
+    "Tigrinya",
+    "TI"
+  ],
+  [
+    "Turkmen",
+    "TK"
+  ],
+  [
+    "Tagalog",
+    "TL"
+  ],
+  [
+    "Tswana",
+    "TN"
+  ],
+  [
+    "Tonga (Tonga Islands)",
+    "TO"
+  ],
+  [
+    "Turkish",
+    "TR"
+  ],
+  [
+    "Tsonga",
+    "TS"
+  ],
+  [
+    "Tatar",
+    "TT"
+  ],
+  [
+    "Twi",
+    "TW"
+  ],
+  [
+    "Tahitian",
+    "TY"
+  ],
+  [
+    "Uighur, Uyghur",
+    "UG"
+  ],
+  [
+    "Ukrainian",
+    "UK"
+  ],
+  [
+    "Urdu",
+    "UR"
+  ],
+  [
+    "Uzbek",
+    "UZ"
+  ],
+  [
+    "Venda",
+    "VE"
+  ],
+  [
+    "Vietnamese",
+    "VI"
+  ],
+  [
+    "Volapük",
+    "VO"
+  ],
+  [
+    "Walloon",
+    "WA"
+  ],
+  [
+    "Wolof",
+    "WO"
+  ],
+  [
+    "Xhosa",
+    "XH"
+  ],
+  [
+    "Yiddish",
+    "YI"
+  ],
+  [
+    "Yoruba",
+    "YO"
+  ],
+  [
+    "Zhuang, Chuang",
+    "ZA"
+  ],
+  [
+    "Chinese",
+    "ZH"
+  ]
+];

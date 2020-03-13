@@ -1,3 +1,3 @@
 # Data Library
 
-A collection of useful data in JSON/PHP format. Run `parse.php` to generate new PHP arrays from `json` input directory if required. 
+A collection of useful data in JSON/PHP/JS format. Run `node run` to generate new data from `src` input directory. 

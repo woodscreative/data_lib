@@ -1,4 +1,4 @@
-[
+module.exports = [
   [
     "GMT+04:00",
     "Abu Dhabi"
@@ -571,4 +571,4 @@
     "GMT+01:00",
     "Zagreb"
   ]
-];
+]

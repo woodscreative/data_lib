@@ -1,4 +1,4 @@
-[
+module.exports = [
   [
     "Monday",
     "01"
@@ -27,4 +27,4 @@
     "Sunday",
     "07"
   ]
-];
+]

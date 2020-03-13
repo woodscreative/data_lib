@@ -1,5 +1,4 @@
-<?php
-$data = [
+module.exports = [
   [
     "Andorra",
     "AD"
@@ -29,8 +28,16 @@ $data = [
     "AM"
   ],
   [
+    "Netherlands Antilles",
+    "AN"
+  ],
+  [
     "Angola",
     "AO"
+  ],
+  [
+    "Asia/Pacific Region",
+    "AP"
   ],
   [
     "Antarctica",
@@ -101,10 +108,6 @@ $data = [
     "BJ"
   ],
   [
-    "Saint Barthelemy",
-    "BL"
-  ],
-  [
     "Bermuda",
     "BM"
   ],
@@ -113,12 +116,8 @@ $data = [
     "BN"
   ],
   [
-    "Bolivia, Plurinational State of",
+    "Bolivia",
     "BO"
-  ],
-  [
-    "Bonaire, Sint Eustatius and Saba",
-    "BQ"
   ],
   [
     "Brazil",
@@ -153,27 +152,23 @@ $data = [
     "CA"
   ],
   [
-    "Cocos (Keeling) Islands",
+    "Cocos (Keeling Islands",
     "CC"
-  ],
-  [
-    "Congo, the Democratic Republic of the",
-    "CD"
-  ],
-  [
-    "Central African Republic",
-    "CF"
   ],
   [
     "Congo",
     "CG"
   ],
   [
+    "Central African Republic",
+    "CF"
+  ],
+  [
     "Switzerland",
     "CH"
   ],
   [
-    "Cote d&#039;Ivoire",
+    "Cote d'Ivoire",
     "CI"
   ],
   [
@@ -205,12 +200,8 @@ $data = [
     "CU"
   ],
   [
-    "Cabo Verde",
+    "Cape Verde",
     "CV"
-  ],
-  [
-    "Curacao",
-    "CW"
   ],
   [
     "Christmas Island",
@@ -221,7 +212,7 @@ $data = [
     "CY"
   ],
   [
-    "Czechia",
+    "Czech Republic",
     "CZ"
   ],
   [
@@ -277,6 +268,10 @@ $data = [
     "ET"
   ],
   [
+    "Europe",
+    "EU"
+  ],
+  [
     "Finland",
     "FI"
   ],
@@ -285,11 +280,11 @@ $data = [
     "FJ"
   ],
   [
-    "Falkland Islands (Malvinas)",
+    "Falkland Islands (Malvinas",
     "FK"
   ],
   [
-    "Micronesia, Federated States of",
+    "Micronesia",
     "FM"
   ],
   [
@@ -429,7 +424,7 @@ $data = [
     "IQ"
   ],
   [
-    "Iran, Islamic Republic of",
+    "Iran",
     "IR"
   ],
   [
@@ -481,11 +476,7 @@ $data = [
     "KN"
   ],
   [
-    "Korea (the Democratic People&#039;s Republic of)",
-    "KP"
-  ],
-  [
-    "Korea (the Republic of)",
+    "Korea",
     "KR"
   ],
   [
@@ -501,7 +492,7 @@ $data = [
     "KZ"
   ],
   [
-    "Lao People&#039;s Democratic Republic",
+    "Lao People's Democratic Republic",
     "LA"
   ],
   [
@@ -541,7 +532,7 @@ $data = [
     "LV"
   ],
   [
-    "Libya",
+    "Libyan Arab Jamahiriya",
     "LY"
   ],
   [
@@ -553,16 +544,12 @@ $data = [
     "MC"
   ],
   [
-    "Moldova, Republic of",
+    "Moldova",
     "MD"
   ],
   [
     "Montenegro",
     "ME"
-  ],
-  [
-    "Saint Martin (French part)",
-    "MF"
   ],
   [
     "Madagascar",
@@ -573,7 +560,7 @@ $data = [
     "MH"
   ],
   [
-    "Macedonia, the former Yugoslav Republic of",
+    "Macedonia",
     "MK"
   ],
   [
@@ -729,7 +716,7 @@ $data = [
     "PR"
   ],
   [
-    "Palestine, State of",
+    "Palestinian Territory",
     "PS"
   ],
   [
@@ -793,7 +780,7 @@ $data = [
     "SG"
   ],
   [
-    "Saint Helena, Ascension and Tristan da Cunha",
+    "Saint Helena",
     "SH"
   ],
   [
@@ -829,20 +816,12 @@ $data = [
     "SR"
   ],
   [
-    "South Sudan",
-    "SS"
-  ],
-  [
     "Sao Tome and Principe",
     "ST"
   ],
   [
     "El Salvador",
     "SV"
-  ],
-  [
-    "Sint Maarten (Dutch part)",
-    "SX"
   ],
   [
     "Syrian Arab Republic",
@@ -909,11 +888,11 @@ $data = [
     "TV"
   ],
   [
-    "Taiwan, Province of China",
+    "Taiwan",
     "TW"
   ],
   [
-    "Tanzania, United Republic of",
+    "Tanzania",
     "TZ"
   ],
   [
@@ -941,7 +920,7 @@ $data = [
     "UZ"
   ],
   [
-    "Holy See (Vatican City State)",
+    "Holy See (Vatican City State",
     "VA"
   ],
   [
@@ -949,19 +928,15 @@ $data = [
     "VC"
   ],
   [
-    "Venezuela, Bolivarian Republic of",
+    "Venezuela",
     "VE"
   ],
   [
-    "Virgin Islands, British",
-    "VG"
-  ],
-  [
-    "Virgin Islands, U.S.",
+    "Virgin Islands",
     "VI"
   ],
   [
-    "Viet Nam",
+    "Vietnam",
     "VN"
   ],
   [
@@ -996,5 +971,4 @@ $data = [
     "Zimbabwe",
     "ZW"
   ]
-];
-?>
+]

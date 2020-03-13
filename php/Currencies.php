@@ -1,32 +1,100 @@
 <?php
-/**
- * Currencies
- * @see https://github.com/woodscreative/data_lib
- */
-$data = array (
-  'AUD' => 'Australian Dollar',
-  'BRL' => 'Brazilian Real',
-  'GBP' => 'British Pound',
-  'CAD' => 'Canadian Dollar',
-  'CZK' => 'Czech Koruna',
-  'DKK' => 'Danish Krone',
-  'EUR' => 'Euro',
-  'HKD' => 'Hong Kong Dollar',
-  'HUF' => 'Hungarian Forint',
-  'ILS' => 'Israeli New Shekel',
-  'JPY' => 'Japanese Yen',
-  'MYR' => 'Malaysian Ringgit',
-  'MXN' => 'Mexican Peso',
-  'NZD' => 'New Zealand Dollar',
-  'NOK' => 'Norwegian Krone',
-  'PHP' => 'Philippine Peso',
-  'PLN' => 'Polish Zloty',
-  'SGD' => 'Singapore Dollar',
-  'SEK' => 'Swedish Krona',
-  'CHF' => 'Swiss Franc',
-  'TWD' => 'Taiwan Dollar',
-  'THB' => 'Thai Baht',
-  'TRY' => 'Turkish Lira',
-  'USD' => 'U.S Dollar',
-);
+$data = [
+  [
+    "Australian Dollar",
+    "AUD"
+  ],
+  [
+    "Brazilian Real",
+    "BRL"
+  ],
+  [
+    "Canadian Dollar",
+    "CAD"
+  ],
+  [
+    "Swiss Franc",
+    "CHF"
+  ],
+  [
+    "Czech Koruna",
+    "CZK"
+  ],
+  [
+    "Danish Krone",
+    "DKK"
+  ],
+  [
+    "Euro",
+    "EUR"
+  ],
+  [
+    "British Pound",
+    "GBP"
+  ],
+  [
+    "Hong Kong Dollar",
+    "HKD"
+  ],
+  [
+    "Hungarian Forint",
+    "HUF"
+  ],
+  [
+    "Israeli New Shekel",
+    "ILS"
+  ],
+  [
+    "Japanese Yen",
+    "JPY"
+  ],
+  [
+    "Mexican Peso",
+    "MXN"
+  ],
+  [
+    "Malaysian Ringgit",
+    "MYR"
+  ],
+  [
+    "Norwegian Krone",
+    "NOK"
+  ],
+  [
+    "New Zealand Dollar",
+    "NZD"
+  ],
+  [
+    "Philippine Peso",
+    "PHP"
+  ],
+  [
+    "Polish Zloty",
+    "PLN"
+  ],
+  [
+    "Swedish Krona",
+    "SEK"
+  ],
+  [
+    "Singapore Dollar",
+    "SGD"
+  ],
+  [
+    "Thai Baht",
+    "THB"
+  ],
+  [
+    "Turkish Lira",
+    "TRY"
+  ],
+  [
+    "Taiwan Dollar",
+    "TWD"
+  ],
+  [
+    "U.S Dollar",
+    "USD"
+  ]
+];
 ?>

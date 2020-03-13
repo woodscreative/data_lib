@@ -1,5 +1,4 @@
-<?php
-$data = [
+module.exports = [
   [
     "October",
     "10"
@@ -48,5 +47,4 @@ $data = [
     "September",
     "09"
   ]
-];
-?>
+]
