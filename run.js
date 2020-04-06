@@ -1,17 +1,20 @@
 const fs = require('fs')
 
 function parseCountries(){
-  var data = require('./src/countries')
-  var parsedData = []
+  let data = require('./src/countries')
+  let parsedData = []
+  let countriesNameOnly = []
   for (let [key, value] of Object.entries(data)) {
     parsedData.push([key,value])
+    countriesNameOnly.push([key])
   }
+  saveFile(countriesNameOnly,'countries_only');
   saveFile(parsedData,'countries');
 }
 
 function parseCurrencies(){
-  var data = require('./src/currencies')
-  var parsedData = []
+  let data = require('./src/currencies')
+  let parsedData = []
   for (let [key, value] of Object.entries(data)) {
     parsedData.push([value,key])
   }
@@ -19,8 +22,8 @@ function parseCurrencies(){
 }
 
 function parseDays(){
-  var data = require('./src/days')
-  var parsedData = []
+  let data = require('./src/days')
+  let parsedData = []
   for (let [key, value] of Object.entries(data)) {
     parsedData.push([value,key])
   }
@@ -28,8 +31,8 @@ function parseDays(){
 }
 
 function parseLanguages(){
-  var data = require('./src/languages')
-  var parsedData = []
+  let data = require('./src/languages')
+  let parsedData = []
   for (let [key, value] of Object.entries(data)) {
     parsedData.push([value,key])
   }
@@ -37,8 +40,8 @@ function parseLanguages(){
 }
 
 function parseMonths(){
-  var data = require('./src/months')
-  var parsedData = []
+  let data = require('./src/months')
+  let parsedData = []
   for (let [key, value] of Object.entries(data)) {
     parsedData.push([value,key])
   }
@@ -46,8 +49,8 @@ function parseMonths(){
 }
 
 function parseNationalities(){
-  var data = require('./src/nationalities')
-  var parsedData = []
+  let data = require('./src/nationalities')
+  let parsedData = []
   for (let [key, value] of Object.entries(data)) {
     parsedData.push([value,key])
   }
@@ -55,8 +58,8 @@ function parseNationalities(){
 }
 
 function parseStates(){
-  var data = require('./src/states')
-  var parsedData = []
+  let data = require('./src/states')
+  let parsedData = []
   for (let [key, value] of Object.entries(data)) {
     parsedData.push([value,key])
   }
@@ -64,8 +67,8 @@ function parseStates(){
 }
 
 function parseTimezones(){
-  var data = require('./src/timezones')
-  var parsedData = []
+  let data = require('./src/timezones')
+  let parsedData = []
   for (let [key, value] of Object.entries(data)) {
     parsedData.push([value,key])
   }
@@ -78,11 +81,11 @@ function saveFile($data, $fname){
   let pathToJson = `./json/${$fname}.json`
   var tpl = `module.exports = ${JSON.stringify($data,null,2)}`
   fs.writeFileSync(pathToJs, tpl, 'utf8')
-  var tpl = `<?php
+  tpl = `<?php
 $data = ${JSON.stringify($data,null,2)};
 ?>`
   fs.writeFileSync(pathToPHP, tpl, 'utf8')
-  var tpl = `${JSON.stringify($data,null,2)};`
+  tpl = `${JSON.stringify($data,null,2)};`
   fs.writeFileSync(pathToJson, tpl, 'utf8')
 }
 
